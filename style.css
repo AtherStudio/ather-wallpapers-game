@@ -1,0 +1,65 @@
+body {
+    margin:0;
+    font-family:Tahoma, Arial;
+    background:linear-gradient(135deg,#111,#333);
+    color:white;
+    text-align:center;
+}
+
+.game {
+    padding:30px;
+}
+
+h1 {
+    color:#00eaff;
+}
+
+.wheel-box {
+    position:relative;
+    margin:auto;
+    width:350px;
+}
+
+canvas {
+    border-radius:50%;
+    background:white;
+}
+
+.arrow {
+    position:absolute;
+    top:-15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:40px;
+    color:red;
+    z-index:2;
+}
+
+
+button {
+
+    margin-top:30px;
+    padding:15px 40px;
+    font-size:22px;
+    border:none;
+    border-radius:20px;
+    background:#00eaff;
+    cursor:pointer;
+}
+
+
+button:hover {
+    background:white;
+}
+
+
+#result {
+    font-size:25px;
+    margin-top:25px;
+}
+
+
+.points {
+    font-size:22px;
+    margin-top:20px;
+}
