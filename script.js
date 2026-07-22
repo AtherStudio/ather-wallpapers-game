@@ -142,3 +142,6 @@ animate();
 
 
 }
+
+
+console.log("Game loaded");
